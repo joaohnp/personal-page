@@ -12,7 +12,7 @@ export default function Now() {
       <h1 className="text-2xl mb-8">now</h1>
 
       <div className="space-y-4 leading-relaxed">
-        <p>building newgate</p>
+        <a href="https://www.newgate.pro">newgate</a>
         <p>the iliad</p>
         <p>based in amsterdam</p>
       </div>

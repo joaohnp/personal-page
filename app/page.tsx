@@ -21,20 +21,20 @@ export default function Home() {
           now
         </Link>
         <span className="text-gray-400">|</span>
-        <Link href="/books" className="hover:text-[#356aff] transition-colors">
-          books
+        <Link href="/projects" className="hover:text-[#356aff] transition-colors">
+          projects
         </Link>
         <span className="text-gray-400">|</span>
         <Link href="/cv" className="hover:text-[#356aff] transition-colors">
           cv
         </Link>
         <span className="text-gray-400">|</span>
-        <Link href="/talks" className="hover:text-[#356aff] transition-colors">
-          talks
-        </Link>
-        <span className="text-gray-400">|</span>
         <Link href="/photography" className="hover:text-[#356aff] transition-colors">
           photography
+        </Link>
+        <span className="text-gray-400">|</span>
+        <Link href="/books" className="hover:text-[#356aff] transition-colors">
+          books
         </Link>
         <span className="text-gray-400">|</span>
         <Link href="/blog" className="hover:text-[#356aff] transition-colors">

@@ -14,7 +14,8 @@ export default function Now() {
       <div className="space-y-4 leading-relaxed">
         <a href="https://www.newgate.pro">newgate</a>
         <p>the iliad</p>
-        <p>based in amsterdam</p>
+        <p>running</p>
+        <p>amsterdam</p>
       </div>
     </div>
   )

@@ -38,13 +38,13 @@ export default function Home() {
 
       <div className="flex items-center space-x-6 mb-12">
         <Link href="https://github.com/joaohnp" className="hover:text-[#356aff] transition-colors">
-          <Github size={20} />
+          <Github size={23} />
         </Link>
-        <Link href="https://twitter.com" className="hover:text-[#356aff] transition-colors">
-          <Twitter size={20} />
+        <Link href="https://twitter.com/jpatriota_" className="hover:text-[#356aff] transition-colors">
+          <Twitter size={23} />
         </Link>
-        <Link href="mailto:your@email.com" className="hover:text-[#356aff] transition-colors">
-          <Mail size={20} />
+        <Link href="mailto:joao.patriota@newgate.pro" className="hover:text-[#356aff] transition-colors">
+          <Mail size={23} />
         </Link>
       </div>
 

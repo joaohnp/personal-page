@@ -19,8 +19,8 @@ export function EnhancedCogwheel() {
 
   // Outer cogwheel elements
   const outerElements = []
-  const outerRadius = 60
-  const outerCount = 12
+  const outerRadius = 55
+  const outerCount = 11
 
   for (let i = 0; i < outerCount; i++) {
     const angle = (i / outerCount) * 360 + rotation1
@@ -31,8 +31,8 @@ export function EnhancedCogwheel() {
 
   // Inner cogwheel elements
   const innerElements = []
-  const innerRadius = 35
-  const innerCount = 8
+  const innerRadius = 30
+  const innerCount = 7
 
   for (let i = 0; i < innerCount; i++) {
     const angle = (i / innerCount) * 360 + rotation2
@@ -44,7 +44,7 @@ export function EnhancedCogwheel() {
   // Center elements
   const centerElements = []
   const centerRadius = 15
-  const centerCount = 6
+  const centerCount = 5
 
   for (let i = 0; i < centerCount; i++) {
     const angle = (i / centerCount) * 360 + rotation3
@@ -65,7 +65,7 @@ export function EnhancedCogwheel() {
             textAnchor="middle"
             dominantBaseline="central"
             fontSize="8"
-            fill="#000000"
+            fill="#1e1f21"
             fontFamily="monospace"
           >
             {element.char}
@@ -80,7 +80,7 @@ export function EnhancedCogwheel() {
             y={element.y}
             textAnchor="middle"
             dominantBaseline="central"
-            fontSize="6"
+            fontSize="10"
             fill="#356aff"
             fontFamily="monospace"
           >
@@ -96,7 +96,7 @@ export function EnhancedCogwheel() {
             y={element.y}
             textAnchor="middle"
             dominantBaseline="central"
-            fontSize="4"
+            fontSize="5"
             fill="#000000"
             fontFamily="monospace"
           >
@@ -110,7 +110,7 @@ export function EnhancedCogwheel() {
           y="0"
           textAnchor="middle"
           dominantBaseline="central"
-          fontSize="6"
+          fontSize="9"
           fill="#356aff"
           fontFamily="monospace"
         >

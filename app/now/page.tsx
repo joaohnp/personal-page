@@ -12,10 +12,9 @@ export default function Now() {
       <h1 className="text-2xl mb-8">now</h1>
 
       <div className="space-y-4 leading-relaxed">
-        <p>currently working on machine learning projects</p>
-        <p>reading "the design of everyday things"</p>
-        <p>learning portuguese</p>
-        <p>based in lisbon</p>
+        <p>building newgate</p>
+        <p>the iliad</p>
+        <p>based in amsterdam</p>
       </div>
     </div>
   )

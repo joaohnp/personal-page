@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center p-8">
       <div className="mb-16">
-        <Image src="/profile.jpeg" alt="Profile" width={200} height={200} className="rounded-full grayscale" />
+        <Image src="/profile.png" alt="Profile" width={200} height={200} className="rounded-full grayscale" />
       </div>
 
       <nav className="flex items-center space-x-4 text-center mb-8">

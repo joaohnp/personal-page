@@ -3,8 +3,8 @@ import type { Metadata } from "next"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "Personal Website",
-  description: "Minimalist personal website",
+  title: "joão patriota",
+  description: "página pessoal",
     generator: 'v0.dev'
 }
 

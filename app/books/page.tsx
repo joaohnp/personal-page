@@ -2,12 +2,10 @@ import Link from "next/link"
 
 export default function Books() {
   const books = [
-    { title: "sapiens", author: "yuval noah harari", year: "2024" },
-    { title: "atomic habits", author: "james clear", year: "2024" },
-    { title: "the design of everyday things", author: "don norman", year: "2023" },
-    { title: "thinking, fast and slow", author: "daniel kahneman", year: "2023" },
+    { title: "why greatness cannot be planned", author: "kenneth stanley", year: "2025" },
+    { title: "the creative act", author: "rick rubin", year: "2025" },
+    { title: "zero to one", author: "peter thiel", year: "2025" },
   ]
-
   return (
     <div className="min-h-screen p-8 max-w-2xl mx-auto">
       <div className="mb-8">

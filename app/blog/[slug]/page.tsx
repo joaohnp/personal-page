@@ -6,8 +6,8 @@ interface Props {
 
 // Sample blog content
 const blogPosts: Record<string, { title: string; date: string; content: string }> = {
-  "on-minimalism": {
-    title: "on minimalism",
+  "why-build": {
+    title: "why build",
     date: "2024-03-15",
     content: `minimalism is not about having less for the sake of having less. it's about having exactly what you need, nothing more, nothing less.
 

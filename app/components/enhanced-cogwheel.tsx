@@ -1,138 +1,122 @@
 "use client"
 
-import { useRef } from "react"
-import { Canvas, useFrame } from "@react-three/fiber"
-import { Text } from "@react-three/drei"
-import type * as THREE from "three"
+import { useEffect, useState } from "react"
 
-function EnhancedCogwheelSystem() {
-  const outerCogRef = useRef<THREE.Group>(null)
-  const innerCogRef = useRef<THREE.Group>(null)
-  const centerRef = useRef<THREE.Group>(null)
+export function EnhancedCogwheel() {
+  const [rotation1, setRotation1] = useState(0)
+  const [rotation2, setRotation2] = useState(0)
+  const [rotation3, setRotation3] = useState(0)
 
-  // Outer cogwheel
-  const outerTeeth = []
-  const outerRadius = 1.2
-  const outerTeethCount = 12
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setRotation1((prev) => prev + 0.5)
+      setRotation2((prev) => prev - 0.8)
+      setRotation3((prev) => prev + 1.2)
+    }, 50)
 
-  for (let i = 0; i < outerTeethCount; i++) {
-    const angle = (i / outerTeethCount) * Math.PI * 2
-    const x = Math.cos(angle) * outerRadius
-    const y = Math.sin(angle) * outerRadius
-    outerTeeth.push({ x, y, char: i % 2 === 0 ? "▲" : "▼" })
+    return () => clearInterval(interval)
+  }, [])
+
+  // Outer cogwheel elements
+  const outerElements = []
+  const outerRadius = 60
+  const outerCount = 12
+
+  for (let i = 0; i < outerCount; i++) {
+    const angle = (i / outerCount) * 360 + rotation1
+    const x = Math.cos((angle * Math.PI) / 180) * outerRadius
+    const y = Math.sin((angle * Math.PI) / 180) * outerRadius
+    outerElements.push({ x, y, char: i % 2 === 0 ? "▲" : "▼", key: `outer-${i}` })
   }
 
-  // Inner cogwheel
-  const innerTeeth = []
-  const innerRadius = 0.7
-  const innerTeethCount = 8
+  // Inner cogwheel elements
+  const innerElements = []
+  const innerRadius = 35
+  const innerCount = 8
 
-  for (let i = 0; i < innerTeethCount; i++) {
-    const angle = (i / innerTeethCount) * Math.PI * 2
-    const x = Math.cos(angle) * innerRadius
-    const y = Math.sin(angle) * innerRadius
-    innerTeeth.push({ x, y, char: "◆" })
+  for (let i = 0; i < innerCount; i++) {
+    const angle = (i / innerCount) * 360 + rotation2
+    const x = Math.cos((angle * Math.PI) / 180) * innerRadius
+    const y = Math.sin((angle * Math.PI) / 180) * innerRadius
+    innerElements.push({ x, y, char: "◆", key: `inner-${i}` })
   }
 
   // Center elements
   const centerElements = []
-  const centerRadius = 0.3
+  const centerRadius = 15
   const centerCount = 6
 
   for (let i = 0; i < centerCount; i++) {
-    const angle = (i / centerCount) * Math.PI * 2
-    const x = Math.cos(angle) * centerRadius
-    const y = Math.sin(angle) * centerRadius
-    centerElements.push({ x, y, char: "●" })
+    const angle = (i / centerCount) * 360 + rotation3
+    const x = Math.cos((angle * Math.PI) / 180) * centerRadius
+    const y = Math.sin((angle * Math.PI) / 180) * centerRadius
+    centerElements.push({ x, y, char: "●", key: `center-${i}` })
   }
 
-  useFrame((state) => {
-    if (outerCogRef.current) {
-      outerCogRef.current.rotation.z = state.clock.elapsedTime * 0.3
-    }
-    if (innerCogRef.current) {
-      innerCogRef.current.rotation.z = -state.clock.elapsedTime * 0.5
-    }
-    if (centerRef.current) {
-      centerRef.current.rotation.z = state.clock.elapsedTime * 0.8
-    }
-  })
-
   return (
-    <group>
-      {/* Outer cogwheel */}
-      <group ref={outerCogRef}>
-        {outerTeeth.map((tooth, index) => (
-          <Text
-            key={`outer-${index}`}
-            position={[tooth.x, tooth.y, 0]}
-            fontSize={0.15}
-            color="#000000"
-            anchorX="center"
-            anchorY="middle"
-            font="/fonts/GeistMono-Regular.ttf"
-          >
-            {tooth.char}
-          </Text>
-        ))}
-      </group>
-
-      {/* Inner cogwheel */}
-      <group ref={innerCogRef}>
-        {innerTeeth.map((tooth, index) => (
-          <Text
-            key={`inner-${index}`}
-            position={[tooth.x, tooth.y, 0]}
-            fontSize={0.12}
-            color="#356aff"
-            anchorX="center"
-            anchorY="middle"
-            font="/fonts/GeistMono-Regular.ttf"
-          >
-            {tooth.char}
-          </Text>
-        ))}
-      </group>
-
-      {/* Center rotating elements */}
-      <group ref={centerRef}>
-        {centerElements.map((element, index) => (
-          <Text
-            key={`center-${index}`}
-            position={[element.x, element.y, 0]}
-            fontSize={0.08}
-            color="#000000"
-            anchorX="center"
-            anchorY="middle"
-            font="/fonts/GeistMono-Regular.ttf"
+    <div className="w-32 h-32 relative flex items-center justify-center">
+      <svg width="128" height="128" viewBox="-64 -64 128 128" className="absolute">
+        {/* Outer cogwheel */}
+        {outerElements.map((element) => (
+          <text
+            key={element.key}
+            x={element.x}
+            y={element.y}
+            textAnchor="middle"
+            dominantBaseline="central"
+            fontSize="8"
+            fill="#000000"
+            fontFamily="monospace"
           >
             {element.char}
-          </Text>
+          </text>
         ))}
-      </group>
 
-      {/* Center core */}
-      <Text
-        position={[0, 0, 0]}
-        fontSize={0.12}
-        color="#356aff"
-        anchorX="center"
-        anchorY="middle"
-        font="/fonts/GeistMono-Regular.ttf"
-      >
-        ■
-      </Text>
-    </group>
-  )
-}
+        {/* Inner cogwheel */}
+        {innerElements.map((element) => (
+          <text
+            key={element.key}
+            x={element.x}
+            y={element.y}
+            textAnchor="middle"
+            dominantBaseline="central"
+            fontSize="6"
+            fill="#356aff"
+            fontFamily="monospace"
+          >
+            {element.char}
+          </text>
+        ))}
 
-export function EnhancedCogwheel() {
-  return (
-    <div className="w-32 h-32">
-      <Canvas camera={{ position: [0, 0, 3], fov: 50 }}>
-        <ambientLight intensity={1} />
-        <EnhancedCogwheelSystem />
-      </Canvas>
+        {/* Center elements */}
+        {centerElements.map((element) => (
+          <text
+            key={element.key}
+            x={element.x}
+            y={element.y}
+            textAnchor="middle"
+            dominantBaseline="central"
+            fontSize="4"
+            fill="#000000"
+            fontFamily="monospace"
+          >
+            {element.char}
+          </text>
+        ))}
+
+        {/* Center core */}
+        <text
+          x="0"
+          y="0"
+          textAnchor="middle"
+          dominantBaseline="central"
+          fontSize="6"
+          fill="#356aff"
+          fontFamily="monospace"
+        >
+          ■
+        </text>
+      </svg>
     </div>
   )
 }

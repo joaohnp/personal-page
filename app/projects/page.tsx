@@ -3,32 +3,40 @@ import Link from "next/link"
 export default function Projects() {
   const projects = [
     {
-      title: "personal website",
-      description: "minimalist portfolio built with next.js and tailwind",
-      tech: ["next.js", "tailwind", "typescript"],
-      year: "2024",
+      title: "newchat",
+      description: "all in one chat app to connect with main llm providers (openai, cohere, anthropic and so on)",
+      tech: ["python", "langchain", "open router"],
+      year: "2025",
       status: "active",
     },
     {
-      title: "task manager app",
-      description: "clean and simple task management with drag & drop",
-      tech: ["react", "node.js", "mongodb"],
-      year: "2023",
-      status: "completed",
-    },
+        title: "newfeed",
+        description: "news parser, feed aggregator and fully functioning agentic news room and AI powered clipping",
+        tech: ["python", "langchain", "open router"],
+        year: "2025",
+        status: "active",
+      },
+      {
+        title: "mewmeet",
+        description: "complete video conferencing app connecte to AI agents to provide summaries specific to your workflow",
+        tech: ["python", "langchain"],
+        year: "2025",
+        status: "active",
+      },
+      {
+        title: "energy estimation algorithm",
+        description: "sleep/HR/HRV algorithm based on wearables data to provide energy-levels estimation to consumer. at eon2life",
+        tech: ["python"],
+        year: "2024",
+        status: "active",
+      },
+
     {
-      title: "weather dashboard",
-      description: "real-time weather data visualization",
-      tech: ["vue.js", "d3.js", "api integration"],
-      year: "2023",
+      title: "healthcare journey classifier",
+      description: "developed a machine learning model to determine if the patient should go to the emergency room or to a video consult. this took place at unimed-bh in a partnership with indigo hive",
+      tech: ["python", "pycaret", "scikit-learn"],
+      year: "2024",
       status: "completed",
-    },
-    {
-      title: "code snippet manager",
-      description: "organize and share code snippets with syntax highlighting",
-      tech: ["react", "firebase", "prism.js"],
-      year: "2022",
-      status: "archived",
     },
   ]
 

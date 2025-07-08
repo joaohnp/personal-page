@@ -12,9 +12,15 @@ export default function Now() {
       <h1 className="text-2xl mb-8">now</h1>
 
       <div className="space-y-4 leading-relaxed">
-        <a href="https://www.newgate.pro">newgate</a>
+      <a              href="https://newgate.pro"
+                      className="hover:text-[#356aff] hover:underline transition-colors"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      newgate
+                    </a>
         <p>the iliad</p>
-        <p>running</p>
+        <p>running 6k</p>
         <p>amsterdam</p>
       </div>
     </div>

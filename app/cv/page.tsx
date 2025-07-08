@@ -73,19 +73,19 @@ export default function CV() {
           <div>
             <div className="flex justify-between items-start mb-2">
               <div>
-                <h3 className="font-medium">computer science</h3>
-                <p className="text-gray-600">university name</p>
+                <h3 className="font-medium">science and technology</h3>
+                <p className="text-gray-600">universidadde federal do rio grande do norte</p>
               </div>
-              <span className="text-sm text-gray-500">2016 - 2020</span>
+              <span className="text-sm text-gray-500">2013 - 2016</span>
             </div>
-            <p className="text-gray-700 text-sm">bachelor's degree</p>
+            <p className="text-gray-700 text-sm">linear algebra, calculus, c++, matlab; bachelor's degree</p>
           </div>
         </div>
 
         <div>
           <h2 className="text-lg font-medium mb-4">skills</h2>
           <div className="flex flex-wrap gap-2">
-            {["javascript", "typescript", "react", "next.js", "node.js", "python", "sql", "git", "docker", "aws"].map(
+            {["python", "langchain", "open router", "sql", "mlops", "llmops"].map(
               (skill) => (
                 <span key={skill} className="px-2 py-1 bg-gray-100 text-sm rounded">
                   {skill}

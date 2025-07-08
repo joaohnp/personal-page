@@ -22,7 +22,7 @@ export default function CV() {
       <div className="space-y-8">
         <div>
           <h1 className="text-2xl mb-4">cv</h1>
-          <p className="text-gray-600">software engineer & creative technologist</p>
+          <p className="text-gray-600">decision-maker & AI dev</p>
         </div>
 
         <div>
@@ -31,10 +31,10 @@ export default function CV() {
             <div>
               <div className="flex justify-between items-start mb-2">
                 <div>
-                  <h3 className="font-medium">senior software engineer</h3>
+                  <h3 className="font-medium">co-founder</h3>
                   <p className="text-gray-600">
                     <a
-                      href="https://newgate.io"
+                      href="https://newgate.pro"
                       className="hover:text-[#356aff] hover:underline transition-colors"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -46,33 +46,33 @@ export default function CV() {
                 <span className="text-sm text-gray-500">2023 - present</span>
               </div>
               <p className="text-gray-700 text-sm">
-                developing scalable web applications and leading technical initiatives
+                startup to bring value via data-driven decisions. there is a gap between data and decision making, which we bridge by collaborating with other businesses. here I'm responsible for AI developments, training new hires, overall high-impact decision making and other c-level attributions. 
               </p>
             </div>
 
             <div>
               <div className="flex justify-between items-start mb-2">
                 <div>
-                  <h3 className="font-medium">full-stack developer</h3>
-                  <p className="text-gray-600">tech startup</p>
+                  <h3 className="font-medium">strategic advisor</h3>
+                  <p className="text-gray-600">kaizen</p>
                 </div>
                 <span className="text-sm text-gray-500">2021 - 2023</span>
               </div>
               <p className="text-gray-700 text-sm">
-                built and maintained multiple client projects using modern web technologies
+                helped kaizen, a fast-growing edutech startp, to establish data-driven processes; data curation; overall reasoning about metrics and KPIs
               </p>
             </div>
 
             <div>
               <div className="flex justify-between items-start mb-2">
                 <div>
-                  <h3 className="font-medium">junior developer</h3>
-                  <p className="text-gray-600">digital agency</p>
+                  <h3 className="font-medium">phd researcher</h3>
+                  <p className="text-gray-600">universiteit van amsterdam</p>
                 </div>
-                <span className="text-sm text-gray-500">2020 - 2021</span>
+                <span className="text-sm text-gray-500">2019 - 2025</span>
               </div>
               <p className="text-gray-700 text-sm">
-                contributed to various web development projects and learned industry best practices
+                contributed to several scientific projects and published research papers; mentored undergraduation students; taught 'analysis of neural signals' and 'scientific writing' 
               </p>
             </div>
           </div>
@@ -95,18 +95,27 @@ export default function CV() {
                       ) : (
                         <ChevronRight className="w-4 h-4" />
                       )}
-                      <h3 className="font-medium">phd in [your field]</h3>
+                      <h3 className="font-medium">phd in cognitive and computational neuroscience</h3>
                     </button>
                   </div>
-                  <p className="text-gray-600 ml-6">university name</p>
+                  <p className="text-gray-600 ml-6">universiteit van amsterdam</p>
                 </div>
-                <span className="text-sm text-gray-500">year - year</span>
+                <span className="text-sm text-gray-500">2019 - 2025</span>
               </div>
               {expandedEducation === "phd" && (
                 <div className="ml-6 text-gray-700 text-sm space-y-2">
-                  <p>dissertation: [title of your dissertation]</p>
-                  <p>research focus: [brief description of your research area]</p>
-                  <p>key achievements: [publications, awards, etc.]</p>
+                  <p>dissertation: the space in between: sleep, memories and dreams</p>
+                  <p>research focus: performed translational work (rats and humans), researching emotional memory consolidation during sleep. stablished cutting edge neurotechnology techniques to manipulate fast frequencies during rem sleep in humans, as well as in rats.</p>
+                  <p>key achievements: awarded piet visser prize for best poster; list of publications: 
+                    <a
+                      href="https://scholar.google.com.br/citations?user=k1ZS-yIAAAAJ&hl=en"
+                      className="hover:text-[#356aff] hover:underline transition-colors"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      google scholar
+                    </a>
+                  </p>
                 </div>
               )}
             </div>
@@ -125,18 +134,18 @@ export default function CV() {
                       ) : (
                         <ChevronRight className="w-4 h-4" />
                       )}
-                      <h3 className="font-medium">masters in [your field]</h3>
+                      <h3 className="font-medium">masters in neuroscience</h3>
                     </button>
                   </div>
-                  <p className="text-gray-600 ml-6">university name</p>
+                  <p className="text-gray-600 ml-6">brain institute - ufrn</p>
                 </div>
-                <span className="text-sm text-gray-500">year - year</span>
+                <span className="text-sm text-gray-500">2017 - 2019</span>
               </div>
               {expandedEducation === "masters" && (
                 <div className="ml-6 text-gray-700 text-sm space-y-2">
-                  <p>thesis: [title of your thesis]</p>
-                  <p>coursework: [relevant courses or specializations]</p>
-                  <p>projects: [key projects or research work]</p>
+                  <p>thesis: orientation selectivity in cat and agouti primary visual cortex as reflected in firing rates, LFP gamma oscillations and phase relationships</p>
+                  <p>coursework: analysis of continuous and discrete data; foundations of computational neuroscience modelling</p>
+                  <p>projects: </p>
                 </div>
               )}
             </div>
@@ -155,27 +164,27 @@ export default function CV() {
                       ) : (
                         <ChevronRight className="w-4 h-4" />
                       )}
-                      <h3 className="font-medium">science and technology</h3>
+                      <h3 className="font-medium">bachelors in science and technology</h3>
                     </button>
                   </div>
                   <p className="text-gray-600 ml-6">universidade federal do rio grande do norte</p>
                 </div>
                 <span className="text-sm text-gray-500">2013 - 2016</span>
               </div>
-              <p className="text-gray-700 text-sm ml-6">bachelor's degree</p>
+              <p className="text-gray-700 text-sm ml-6"></p>
               {expandedEducation === "bachelor" && (
                 <div className="ml-6 text-gray-700 text-sm space-y-2 mt-2">
                   <p>
                     <strong>core subjects:</strong> linear algebra, calculus, c++, matlab
                   </p>
                   <p>
-                    <strong>focus areas:</strong> mathematical modeling, computational methods, programming fundamentals
+                    <strong>focus areas:</strong> mathematical modeling, computational methods, programming fundamentals, probability and statistics
                   </p>
                   <p>
-                    <strong>projects:</strong> [any significant projects or research during bachelor's]
+                    <strong>projects:</strong> data wrangling and visualization of neuronal activity at the brain institute; internship at TU Darmstadt
                   </p>
                   <p>
-                    <strong>achievements:</strong> [any honors, awards, or notable accomplishments]
+                    <strong>achievements:</strong> awarded a scholarship for scientific initiation
                   </p>
                 </div>
               )}

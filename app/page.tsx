@@ -23,10 +23,6 @@ export default function Home() {
           cv
         </Link>
         <span className="text-gray-400">|</span>
-        <Link href="/photography" className="hover:text-[#356aff] transition-colors">
-          photography
-        </Link>
-        <span className="text-gray-400">|</span>
         <Link href="/books" className="hover:text-[#356aff] transition-colors">
           books
         </Link>

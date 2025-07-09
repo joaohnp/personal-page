@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import { EnhancedCogwheel } from "./components/enhanced-cogwheel"
-import { Github, Twitter, Mail } from "lucide-react"
+import { Github, Twitter, Mail, Linkedin } from "lucide-react"
 
 export default function Home() {
   return (
@@ -45,6 +45,9 @@ export default function Home() {
         </Link>
         <Link href="mailto:joao.patriota@newgate.pro" className="hover:text-[#356aff] transition-colors">
           <Mail size={23} />
+        </Link>
+        <Link href="https://linkedin.com/in/joaopatriota" className="hover:text-[#356aff] transition-colors">
+          <Linkedin size={23} />
         </Link>
       </div>
 

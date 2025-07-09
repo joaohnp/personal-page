@@ -53,26 +53,25 @@ export default function CV() {
             <div>
               <div className="flex justify-between items-start mb-2">
                 <div>
-                  <h3 className="font-medium">strategic advisor</h3>
-                  <p className="text-gray-600">kaizen</p>
-                </div>
-                <span className="text-sm text-gray-500">2021 - 2023</span>
-              </div>
-              <p className="text-gray-700 text-sm">
-                helped kaizen, a fast-growing edutech startp, to establish data-driven processes; data curation; overall reasoning about metrics and KPIs
-              </p>
-            </div>
-
-            <div>
-              <div className="flex justify-between items-start mb-2">
-                <div>
                   <h3 className="font-medium">phd researcher</h3>
                   <p className="text-gray-600">universiteit van amsterdam</p>
                 </div>
                 <span className="text-sm text-gray-500">2019 - 2025</span>
               </div>
               <p className="text-gray-700 text-sm">
-                contributed to several scientific projects and published research papers; mentored undergraduation students; taught 'analysis of neural signals' and 'scientific writing' 
+                contributed to several scientific projects and published research papers; mentored undergraduation students; taught 'analysis of neural signals' and 'scientific writing' at the psychobiologie programme 
+              </p>
+            </div>
+            <div>
+              <div className="flex justify-between items-start mb-2">
+                <div>
+                  <h3 className="font-medium">strategic advisor</h3>
+                  <p className="text-gray-600">kaizen</p>
+                </div>
+                <span className="text-sm text-gray-500">2021 - 2023</span>
+              </div>
+              <p className="text-gray-700 text-sm">
+                helped kaizen, a fast-growing edutech startup, to establish data-driven processes; data curation; overall reasoning about metrics and KPIs. kaizen is one of our dearest and closest client at newgate til this date
               </p>
             </div>
           </div>
@@ -105,7 +104,7 @@ export default function CV() {
               {expandedEducation === "phd" && (
                 <div className="ml-6 text-gray-700 text-sm space-y-2">
                   <p>dissertation: the space in between: sleep, memories and dreams</p>
-                  <p>research focus: performed translational work (rats and humans), researching emotional memory consolidation during sleep. stablished cutting edge neurotechnology techniques to manipulate fast frequencies during rem sleep in humans, as well as in rats.</p>
+                  <p>research focus: performed translational work (rats and humans), researching emotional memory consolidation during sleep. stablished cutting edge neurotechnology techniques to predict and manipulate fast frequencies during rem sleep in humans, as well as in rats. also designed the experiments, built the setups (arduino, open ephys), analyzed all the data (python).</p>
                   <p>key achievements: awarded piet visser prize for best poster; list of publications: 
                     <a
                       href="https://scholar.google.com.br/citations?user=k1ZS-yIAAAAJ&hl=en"
@@ -144,8 +143,8 @@ export default function CV() {
               {expandedEducation === "masters" && (
                 <div className="ml-6 text-gray-700 text-sm space-y-2">
                   <p>thesis: orientation selectivity in cat and agouti primary visual cortex as reflected in firing rates, LFP gamma oscillations and phase relationships</p>
-                  <p>coursework: analysis of continuous and discrete data; foundations of computational neuroscience modelling</p>
-                  <p>projects: </p>
+                  <p>coursework: analysis of continuous and discrete data; foundations of computational neuroscience modelling; foundations of neuroscience</p>
+                  <p>projects: analyzed large datasets of spiking and lfp activity. identified key patterns in firing rate of primary visual cortex neurons and its relation to overarching columnar organization</p>
                 </div>
               )}
             </div>
@@ -181,10 +180,10 @@ export default function CV() {
                     <strong>focus areas:</strong> mathematical modeling, computational methods, programming fundamentals, probability and statistics
                   </p>
                   <p>
-                    <strong>projects:</strong> data wrangling and visualization of neuronal activity at the brain institute; internship at TU Darmstadt
+                    <strong>projects:</strong> data wrangling and visualization of neuronal activity (matlab) at the brain institute; 
                   </p>
                   <p>
-                    <strong>achievements:</strong> awarded a scholarship for scientific initiation
+                    <strong>achievements:</strong> awarded a scientific initiation scholarship, which led me to an intership at TU darmstadt
                   </p>
                 </div>
               )}

@@ -4,7 +4,7 @@ export default function Projects() {
   const projects = [
     {
       title: "newchat",
-      description: "all in one chat app to connect with main llm providers (openai, cohere, anthropic and so on)",
+      description: "all in one chat app to connect with main llm providers (openai, google, anthropic and so on)",
       tech: ["python", "langchain", "open router"],
       year: "2025",
       status: "active",

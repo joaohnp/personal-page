@@ -42,7 +42,7 @@ export default function Home() {
         <Link href="mailto:joao.patriota@newgate.pro" className="hover:text-[#356aff] transition-colors">
           <Mail size={23} />
         </Link>
-        <Link href="https://linkedin.com/in/joaopatriota" className="hover:text-[#356aff] transition-colors">
+        <Link href="https://www.linkedin.com/in/jpatriota/" className="hover:text-[#356aff] transition-colors">
           <Linkedin size={23} />
         </Link>
       </div>

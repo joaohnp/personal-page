@@ -6,16 +6,14 @@ interface Props {
 
 // Sample blog content
 const blogPosts: Record<string, { title: string; date: string; content: string }> = {
-  "why-build": {
-    title: "why build",
+  "who-and-why": {
+    title: "who and why",
     date: "2024-03-15",
-    content: `minimalism is not about having less for the sake of having less. it's about having exactly what you need, nothing more, nothing less.
-
-in design, this translates to removing everything that doesn't serve a purpose. every element should have a reason to exist.
-
-the same principle applies to code, to life, to everything we create.
-
-when we strip away the unnecessary, what remains is pure intention.`,
+    content: `hi all, i'm joão patriota, on the verge of defending my phd thesis at the universiteit van amsterdam (oct 2nd!) i realized its important to have a page where people could at least get a gist of who i am and what i am doing. 
+    for this reason i condensed a lot of the main points people ask me about, job status projects and so on. however, in a very tired millenial way, i grew more and more annoyed with social media. this means that sometimes there are some thoughts or pictures (i photograph mostly 35mm and develop/scan/print at home) i would like to share, and thinking about medium/substack/instagram for this feels a bit pointless as im not really interested in farming views. 
+    currently im building newgate, a b2b saas company (yes) together with two of my closest friends. a challenging process, nevertheless, but also an interesting spot to be at. what drew me to academia, to an extent, was also figuring hard problems and building what i thought was needed at that moment. 
+    its hard to navigate, but definetely quite interesting to work on. naturally, some of my thoughts in this regard maybe shared within this page. 
+    i hope this is useful or interesting. if anything just send a message -- a reply is guaranteed`,
   },
   "building-personal-websites": {
     title: "building personal websites",

@@ -34,9 +34,9 @@ export default function Projects() {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      newfeed
+                      newmeet
                     </a>,
-        description: "complete video conferencing app connecte to AI agents to provide summaries specific to your workflow",
+        description: "complete AI poweredvideo conferencing. we connect video calls to state of the art agentic orchestration to provide useful summaries specific to your workflow",
         tech: ["python", "langchain"],
         year: "2025",
         status: "active",

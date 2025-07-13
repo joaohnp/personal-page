@@ -103,9 +103,9 @@ export default function CV() {
               </div>
               {expandedEducation === "phd" && (
                 <div className="ml-6 text-gray-700 text-sm space-y-2">
-                  <p>dissertation: the space in between: sleep, memories and dreams</p>
-                  <p>research focus: performed translational work (rats and humans), researching emotional memory consolidation during sleep. stablished cutting edge neurotechnology techniques to predict and manipulate fast frequencies during rem sleep in humans, as well as in rats. also designed the experiments, built the setups (arduino, open ephys), analyzed all the data (python).</p>
-                  <p>key achievements: awarded piet visser prize for best poster; list of publications: 
+                  <p><strong>dissertation:</strong> the space in between: sleep, memories and dreams</p>
+                  <p><strong>research focus:</strong> performed translational work (rats and humans), researching emotional memory consolidation during sleep. stablished cutting edge neurotechnology techniques to predict and manipulate fast frequencies during rem sleep in humans, as well as in rats. also designed the experiments, built the setups (arduino, open ephys), analyzed all the data (python).</p>
+                  <p><strong>key achievements:</strong> awarded a COS grant for consciousness research; list of publications: 
                     <a
                       href="https://scholar.google.com.br/citations?user=k1ZS-yIAAAAJ&hl=en"
                       className="hover:text-[#356aff] hover:underline transition-colors"
@@ -142,9 +142,9 @@ export default function CV() {
               </div>
               {expandedEducation === "masters" && (
                 <div className="ml-6 text-gray-700 text-sm space-y-2">
-                  <p>thesis: orientation selectivity in cat and agouti primary visual cortex as reflected in firing rates, LFP gamma oscillations and phase relationships</p>
-                  <p>coursework: analysis of continuous and discrete data; foundations of computational neuroscience modelling; foundations of neuroscience</p>
-                  <p>projects: analyzed large datasets of spiking and lfp activity. identified key patterns in firing rate of primary visual cortex neurons and its relation to overarching columnar organization</p>
+                  <p><strong>thesis:</strong> orientation selectivity in cat and agouti primary visual cortex as reflected in firing rates, LFP gamma oscillations and phase relationships</p>
+                  <p><strong>coursework:</strong> analysis of continuous and discrete data; foundations of computational neuroscience modelling; foundations of neuroscience</p>
+                  <p><strong>projects:</strong> analyzed large datasets of spiking and lfp activity. identified key patterns in firing rate of primary visual cortex neurons and its relation to overarching columnar organization</p>
                 </div>
               )}
             </div>

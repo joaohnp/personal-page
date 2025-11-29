@@ -19,9 +19,9 @@ export default function Now() {
                     >
                       newgate
                     </a>
-        <p>the iliad</p>
-        <p>running 6k</p>
-        <p>amsterdam</p>
+        <p>the god of small things</p>
+        <p>running 5k</p>
+        <p>amsterdam -> natal</p>
       </div>
     </div>
   )

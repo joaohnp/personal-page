@@ -1,10 +1,18 @@
 import Link from "next/link"
+import fs from 'fs'
+import path from 'path'
+import matter from 'gray-matter'
 
 export default function Blog() {
-  const posts = [
-    { slug: "who-and-why", title: "who and why", date: "2025-07-09" },
-    { slug: "on-doing-a-phd", title: "on doing a phd", date: "2026-01-09" },
-  ]
+  const postsDir = path.join(process.cwd(), 'app/blog/posts')
+  const files = fs.readdirSync(postsDir).filter(file => file.endsWith('.md'))
+  const posts = files.map(file => {
+    const slug = file.replace('.md', '')
+    const filePath = path.join(postsDir, file)
+    const content = fs.readFileSync(filePath, 'utf8')
+    const { data } = matter(content)
+    return { slug, title: data.title, date: data.date }
+  }).sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
 
   return (
     <div className="min-h-screen p-8 max-w-2xl mx-auto">

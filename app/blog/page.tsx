@@ -3,6 +3,7 @@ import Link from "next/link"
 export default function Blog() {
   const posts = [
     { slug: "who-and-why", title: "who and why", date: "2025-07-09" },
+    { slug: "on-doing-a-phd", title: "on doing a phd", date: "2026-01-09" },
   ]
 
   return (

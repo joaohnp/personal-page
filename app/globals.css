@@ -33,6 +33,10 @@ a:hover {
   }
 }
 
+.prose p {
+  margin-bottom: 1.25em;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;

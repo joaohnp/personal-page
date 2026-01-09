@@ -1,1 +1,1 @@
-site pessoal. built mostly with v0 and deployed via vercel
+built mostly with v0 and deployed via vercel

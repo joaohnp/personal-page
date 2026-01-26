@@ -19,7 +19,7 @@ export default function Now() {
                     >
                       newgate
                     </a>
-        <p>the god of small things</p>
+        <p>sátántangó</p>
         <p>running 5k</p>
         <p>amsterdam -> natal</p>
       </div>

@@ -37,7 +37,7 @@ export default function Projects() {
                       newmeet
                     </a>,
         description: "complete AI poweredvideo conferencing. we connect video calls to state of the art agentic orchestration to provide useful summaries specific to your workflow",
-        tech: ["python", "langchain"],
+        tech: ["python", "dspy"],
         year: "2025",
         status: "active",
       },

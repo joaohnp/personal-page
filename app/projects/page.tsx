@@ -10,8 +10,8 @@ export default function Projects() {
                     >
                       newchat
                     </a>,
-      description: "all in one chat app to connect with main llm providers (openai, google, anthropic and so on)",
-      tech: ["python", "langchain", "open router"],
+      description: "dspy-based all in one RAG-powered enterprise chat app",
+      tech: ["python", "dspy", "open router"],
       year: "2025",
       status: "active",
     },

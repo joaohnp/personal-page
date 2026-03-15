@@ -194,7 +194,7 @@ export default function CV() {
         <div>
           <h2 className="text-lg font-medium mb-4">skills</h2>
           <div className="flex flex-wrap gap-2">
-            {["python", "langchain", "open router", "sql", "mlops", "llmops"].map((skill) => (
+            {["python", "dspy", "openrouter", "mlops", "llmops"].map((skill) => (
               <span key={skill} className="px-2 py-1 bg-gray-100 text-sm rounded">
                 {skill}
               </span>

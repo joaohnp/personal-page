@@ -2,6 +2,7 @@ import Link from "next/link"
 
 export default function Books() {
   const books = [
+    { title: "orbital", author: "samantha harvey", year: "2026" },
     { title: "the god of small things", author: "arundhati roy", year: "2026" },
     { title: "iliad", author: "homer", year: "2025" },
     { title: "frieren: beyond journey's end", author: "kanehato yamada", year: "2025" },

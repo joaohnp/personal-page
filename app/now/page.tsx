@@ -19,7 +19,7 @@ export default function Now() {
                     >
                       newgate
                     </a>
-        <p>orbital</p>
+        <p>storynomics</p>
         <p>lifting</p>
         <p>amsterdam -> natal</p>
       </div>

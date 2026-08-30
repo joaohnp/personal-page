@@ -10,10 +10,10 @@ export default function Projects() {
                     >
                       newchat
                     </a>,
-      description: "dspy-based all in one RAG-powered enterprise chat app",
-      tech: ["python", "dspy", "open router"],
-      year: "2025",
-      status: "active",
+      description: "dspy-based all in one RAG-powered enterprise chat app. sunsetted after serving hundreds of users (b2c+b2b) across about five brazilian SMBs ",
+      tech: ["python", "dspy", "openrouter"],
+      year: "2025-2026",
+      status: "completed",
     },
     {
         title: <a              href="https://app.newfeed.ai"
@@ -24,9 +24,9 @@ export default function Projects() {
                       newfeed
                     </a>,
         description: "news parser, feed aggregator and fully functioning agentic news room and AI powered clipping",
-        tech: ["python", "langchain", "open router"],
+        tech: ["python", "langchain", "openrouter"],
         year: "2025",
-        status: "active",
+        status: "completed",
       },
       {
         title: <a              href="https://app.newmeet.ai"
@@ -36,10 +36,10 @@ export default function Projects() {
                     >
                       newmeet
                     </a>,
-        description: "complete AI poweredvideo conferencing. we connect video calls to state of the art agentic orchestration to provide useful summaries specific to your workflow",
+        description: "complete AI-powered video conferencing. video calls + state of the art agentic orchestration to provide useful summaries specific to your workflow. sunsetted after over 100k hours served to over 200 users",
         tech: ["python", "dspy"],
-        year: "2025",
-        status: "active",
+        year: "2025-2026",
+        status: "completed",
       },
       {
         title: "energy estimation algorithm",

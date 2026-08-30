@@ -13,7 +13,7 @@ export default function Projects() {
 {
       title: <span className="hover:text-[#C3B1E1] hover:underline transition-colors">
         company-wide knowledge base and MCP server.</span>,
-      description: "defining agent-first pipelines to obtain processes descriptions from directors. humans are prompted by AI agents and their responses feed our OKF adherent wiki. this process depends on a MCP server to transport proper skills and requirements of proper fulfilling of knowledge.",
+      description: "defining agent-first pipelines to obtain processes descriptions from directors. humans are prompted by AI agents and their responses feed our OKF adherent wiki. this process depends on a MCP server to transport proper skills and my requirements of fulfilled knowledge.",
       tech: ["python", "MCP", "OKF"],
       year: "2026-",
       status: "ongoing",

@@ -81,7 +81,7 @@ export function EnhancedCogwheel() {
             textAnchor="middle"
             dominantBaseline="central"
             fontSize="10"
-            fill="#356aff"
+            fill="#C3B1E1"
             fontFamily="monospace"
           >
             {element.char}
@@ -111,7 +111,7 @@ export function EnhancedCogwheel() {
           textAnchor="middle"
           dominantBaseline="central"
           fontSize="9"
-          fill="#356aff"
+          fill="#C3B1E1"
           fontFamily="monospace"
         >
           ■

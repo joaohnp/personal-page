@@ -22,7 +22,7 @@ export default function CV() {
       <div className="space-y-8">
         <div>
           <h1 className="text-2xl mb-4">cv</h1>
-          <p className="text-gray-600">decision-maker & AI dev</p>
+          <p className="text-gray-600">decision-maker & dev</p>
         </div>
 
         <div>
@@ -39,11 +39,11 @@ export default function CV() {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      newgate
+                    kaizen
                     </a>
                   </p>
                 </div>
-                <span className="text-sm text-gray-500">2023 - 2026</span>
+                <span className="text-sm text-gray-500">2026 - present</span>
               </div>
               <p className="text-gray-700 text-sm">
               kaizen unlocks students full potential. in the shadow education market we bring value via tailor-made mentorships built to cover knowledge and operational gaps of k12 students. I am in charge of bringing AI to the core of the operations to truly escalate a service business -- over 700 students and 60 employees.

@@ -31,6 +31,27 @@ export default function CV() {
             <div>
               <div className="flex justify-between items-start mb-2">
                 <div>
+                  <h3 className="font-medium">partner and COO/h3>
+                  <p className="text-gray-600">
+                    <a
+                      href="https://kaizenmentoria.com/"
+                      className="hover:text-[#C3B1E1] hover:underline transition-colors"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      newgate
+                    </a>
+                  </p>
+                </div>
+                <span className="text-sm text-gray-500">2023 - 2026</span>
+              </div>
+              <p className="text-gray-700 text-sm">
+              kaizen unlocks students full potential. in the shadow education market we bring value via tailor-made mentorships built to cover knowledge and operational gaps of k12 students. I am in charge of bringing AI to the core of the operations to truly escalate a service business -- over 700 students and 60 employees.
+              </p>
+            </div>
+            <div>
+              <div className="flex justify-between items-start mb-2">
+                <div>
                   <h3 className="font-medium">co-founder</h3>
                   <p className="text-gray-600">
                     <a

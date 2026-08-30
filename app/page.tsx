@@ -15,7 +15,7 @@ export default function Home() {
         />
       <div className="mt-4">
        <p className="font-medium">joao patriota, phd.</p>
-       <p className="mt-1 text-sm text-gray-600">
+       <p className="mt-1 text-xs text-gray-600">
          COO @ kaizen | data | AI
        </p>
      </div>

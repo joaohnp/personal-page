@@ -6,7 +6,7 @@ import { Github, Twitter, Mail, Linkedin } from "lucide-react"
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center p-8">
-      <div className="mb-16">
+      <div className="mb-16 flex flex-col items-center text-center">
         <Image src="/profile.png" 
           alt="Profile" 
           width={200} 

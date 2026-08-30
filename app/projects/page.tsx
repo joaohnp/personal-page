@@ -2,6 +2,30 @@ import Link from "next/link"
 
 export default function Projects() {
   const projects = [
+{
+      title: <span className="hover:text-[#C3B1E1] hover:underline transition-colors">
+        AI-first lead routing architecture.</span>,
+      description: "current sales pipeline is fully human-based between lead acquisition and the closing call. I'm leading a team applying data-science and statistical methods to find best candidates and execute automation via llm pipelines. we also defined appropriate benchmarks aligned with the business logic to properly measure AI impact.",
+      tech: ["python", "dspy"],
+      year: "2026-",
+      status: "ongoing",
+    },
+{
+      title: <span className="hover:text-[#C3B1E1] hover:underline transition-colors">
+        company-wide knowledge base and MCP server.</span>,
+      description: "defining agent-first pipelines to obtain processes descriptions from directors. humans are prompted by AI agents and their responses feed our OKF adherent wiki. this process depends on a MCP server to transport proper skills and requirements of proper fulfilling of knowledge.",
+      tech: ["python", "MCP", "OKF"],
+      year: "2026-",
+      status: "ongoing",
+    },
+{
+      title: <span className="hover:text-[#C3B1E1] hover:underline transition-colors">
+        revenue-based operational guidelines.</span>,
+      description: "via provided knowledge to our wiki, i'm leading a team to cross-check information and find biggest gaps and consequences to revenue (either lost or not-realized gains). we defined a llm-based pipeline to estimate lowest-hanging fruits in order to guide and substantiate our directors work.",
+      tech: ["python", "MCP", "dspy"],
+      year: "2026-",
+      status: "ongoing",
+    },
     {
       title: <a              href="https://app.new-chat.ai"
                       className="hover:text-[#356aff] hover:underline transition-colors"

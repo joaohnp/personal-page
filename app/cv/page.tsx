@@ -31,7 +31,7 @@ export default function CV() {
             <div>
               <div className="flex justify-between items-start mb-2">
                 <div>
-                  <h3 className="font-medium">partner and COO/h3>
+                  <h3 className="font-medium">partner and COO</h3>
                   <p className="text-gray-600">
                     <a
                       href="https://kaizenmentoria.com/"

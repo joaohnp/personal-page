@@ -43,10 +43,10 @@ export default function CV() {
                     </a>
                   </p>
                 </div>
-                <span className="text-sm text-gray-500">2023 - present</span>
+                <span className="text-sm text-gray-500">2023 - 2026</span>
               </div>
               <p className="text-gray-700 text-sm">
-                startup to bring value via data-driven decisions. there is a gap between data and decision making, which we bridge by collaborating with other businesses. here I'm responsible for AI developments, training new hires, overall high-impact decision making and other c-level attributions. 
+                startup to bring value via data-driven decisions. there is a gap between data and decision making, which we bridge by collaborating with other businesses. here I'm responsible for AI developments, training new hires, overall high-impact decision making and other c-level attributions. sunsetted after four years and acqui-hired into kaizen.
               </p>
             </div>
 

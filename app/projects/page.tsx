@@ -45,8 +45,7 @@ export default function Projects() {
         title: "energy estimation algorithm",
         description: (
   <span>
-    sleep/HR/HRV algorithm based on wearables data to provide energy-levels
-    estimation to consumer. at{" "}
+    science-backed algorithm to determine energy levels during the day to real users. based any wearables data (oura, whoop, apple watch and others). included analysis on several sleep metrics and a custom llm-based insights generation to real consumers. at{" "}
     <a
       href="https://www.eon2life.com" // Replace with the actual URL for eon2life
       target="_blank"
@@ -57,9 +56,9 @@ export default function Projects() {
     </a>
   </span>
 ),
-        tech: ["python", "fastapi"],
-        year: "2024",
-        status: "active",
+        tech: ["python", "fastapi", "dspy"],
+        year: "2024 -2026",
+        status: "completed",
       },
 
     {

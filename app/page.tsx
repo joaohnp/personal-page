@@ -7,7 +7,18 @@ export default function Home() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center p-8">
       <div className="mb-16">
-        <Image src="/profile.png" alt="Profile" width={200} height={200} className="rounded-full grayscale" />
+        <Image src="/profile.png" 
+          alt="Profile" 
+          width={200} 
+          height={200} 
+          className="rounded-full grayscale" 
+        />
+      <div className="mt-4">
+       <p className="font-medium">joao patriota, phd.</p>
+       <p className="mt-1 text-sm text-gray-600">
+         COO@kaizen | data-centered processes | AI
+       </p>
+     </div>
       </div>
 
       <nav className="flex items-center space-x-4 text-center mb-8">
@@ -24,7 +35,7 @@ export default function Home() {
         </Link>
         <span className="text-gray-400">|</span>
         <Link href="/books" className="hover:text-[#356aff] transition-colors">
-          books
+          reading
         </Link>
         <span className="text-gray-400">|</span>
         <Link href="/blog" className="hover:text-[#356aff] transition-colors">

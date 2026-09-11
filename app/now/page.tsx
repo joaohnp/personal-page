@@ -19,7 +19,7 @@ export default function Now() {
                     >
                       kaizen
                     </a>
-        <p>storynomics</p>
+        <p>rework</p>
         <p>running</p>
         <p>amsterdam -> natal</p>
       </div>
